@@ -5,7 +5,7 @@ wget --no-check-certificate 'https://docs.google.com/document/d/1DjnPJ1LgovVYeAy
 
 sleep 1
 
-DATE = $(date +"%Y-%m-%d %H:%M:%S")
+DATE=$(date +%Y-%m-%d\ %H:%M:%S)
 
 git commit -a -m "update at $DATE"
 git push
